@@ -17,7 +17,7 @@
 }
 
 
-.spotify_home-container_side-bar-item  {
+.spotify__home-container_side-bar-item  {
     
 
 font-size: 16px;
@@ -29,7 +29,7 @@ padding-left: 18px;
 }
 
 
-.spotify_home-container_side-bar-item > a:hover {
+.spotify__home-container_side-bar-item > a:hover {
 
     cursor: pointer;
     color: lightgray;
