@@ -12,20 +12,20 @@ export class HomeComponent {
 
     {
 
-      //thumbnail: 'jioejoeijijisodj',
+      thumbnail: 'jioejoeijijisodj',
 
-      //title: 'Romantic Songs',
-      //description: 'Relax and indulge with beautiful piano pieces'
+      title: 'Romantic Songs',
+      description: 'Relax and indulge with beautiful piano pieces'
 
 
     },
 
     {
 
-      //thumbnail: 'jioejoeijijisodj',
+      thumbnail: 'jioejoeijijisodj',
 
-      //title: 'Romantic Songs',
-      //description: 'Relax and indulge with beautiful piano pieces'
+      title: 'Romantic Songs',
+      description: 'Relax and indulge with beautiful piano pieces'
 
 
     },

@@ -1,28 +1,23 @@
 <header>
-
 <nav class="spotify__top-nav">
 <div class="spotify__top-nav_focus_title">
 <ul class="spotify__top-nav_auth">
 <li><button class="foward_btn"></button></li>
 <li><button class="backward_btn"></button></li>
 <li *ngIf="isSearchFiedlVisible">
+<input 
+    class="search_playlist"
+     type="search"/>What do you want to listen to?
+     />
+    </li>
 
-
-<input
- class="search_playlist" type="search" placeholder="What do you want to linten to?"
- />
+</ul>
+</div>
+<ul class="spotify__top-nav_auth">
+<li>Sign up</li>
+<li class="spotify__top-nav_auth_login" (click)="onNavigationToLogin()">
+Log in
 </li>
 </ul>
-
-</div>
-
-<ul class="spotify__top-nav_auth">
-
-    <li>Sign up</li>
-    <li class="spotify__top-nav_auth_login" (click)="onNavigationToLogin()">Log in</li>
-</ul>
-
 </nav>
-
-
 </header>
