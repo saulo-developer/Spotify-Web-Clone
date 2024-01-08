@@ -49,12 +49,6 @@ font-size: 22px;
 
 }
 
-.spotify__top-nav_focus_title {
-
-
-
-  margin-left: 30px;
-}
 
 .spotify__top-nav_auth_login {
 
@@ -75,6 +69,14 @@ text-align: center;
   cursor: pointer;
   color: rgb(9, 185, 9);
   background-color: rgb(32, 32, 32);
+
+
+}
+
+.search_playlist {
+   border: none;
+   width: 350px;
+   border-radius: 20px;
 
 
 }

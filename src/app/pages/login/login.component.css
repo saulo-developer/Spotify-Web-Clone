@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 670px;
     gap: 10px;
 
 }
@@ -26,8 +26,30 @@ input[type="password"] {
 input::placeholder {
 
    color: rgb(45, 44, 44);
+   border: 1x solid black;
+
 
     
+}
+
+
+hr {
+
+width: 100%;
+
+
+
+}
+
+#remember_me {
+
+margin-left: 4px;
+font-size: 20px;
+background-color: #1ed760;
+width: 15px;
+
+
+
 }
 
 .login__btn {
@@ -42,12 +64,29 @@ font-weight: bold;
 
 }
 
+
+.signup__btn {
+
+    background-color: white;
+    color: gray;
+    padding: 14px;
+    border-radius: 28px;
+    border: 2px solid gray;
+    font-weight: bold;
+    
+    }
+
+
+
 .action_buttons {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 412px;
+
+
 
 
 
