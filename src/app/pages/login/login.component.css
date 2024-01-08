@@ -16,6 +16,21 @@ input {
     padding: 10px;
     border: none;
     border: 1px solid black;
+    border-radius: 4px;
+    width: 400px;
+
+}
+
+.login__btn {
+
+background-color: #1ed760;
+color: black;
+padding: 14px;
+border-radius: 20px;
+width: 50px;
+
+
+
 
 
 }
