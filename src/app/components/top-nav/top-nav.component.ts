@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SearchBarService } from 'src/app/services/searchbar.service';
 
 @Component({
   selector: 'app-top-nav',
@@ -7,12 +8,21 @@ import { Router } from '@angular/router';
   styleUrls: ['./top-nav.component.css']
 })
 export class TopNavComponent implements OnInit {
+onNavigationToLogin() {
+throw new Error('Method not implemented.');
+}
   public isSearchFiedlVisible: boolean = false;
 
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private sb: SearchBarService) {}
 
   ngOnInit(): void {
+
+    this.sb.isSearchVisible.subscribe(status => {
+     this.isSearchFiedlVisible = status;
+
+
+    })
 
   }
 

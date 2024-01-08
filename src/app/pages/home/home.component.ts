@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SearchBarService } from 'src/app/services/searchbar.service';
 
 @Component({
   selector: 'app-home',
@@ -11,63 +12,43 @@ export class HomeComponent {
 
     {
 
+      //thumbnail: 'jioejoeijijisodj',
 
+      //title: 'Romantic Songs',
+      //description: 'Relax and indulge with beautiful piano pieces'
 
 
     },
 
+    {
+
+      //thumbnail: 'jioejoeijijisodj',
+
+      //title: 'Romantic Songs',
+      //description: 'Relax and indulge with beautiful piano pieces'
 
 
+    },
+
+  ];
 
 
+  constructor(private sb: SearchBarService) {}
+
+  ngOnInit(): void {}
 
 
+  onNavigation(pageName: string) {
 
+    if(pageName === 'search') {
 
+      this.sb.isSearchVisible.next(true);
 
+    } else {
 
+      this.sb.isSearchVisible.next(false);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 }
