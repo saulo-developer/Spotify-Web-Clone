@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Route, Router } from '@angular/router';
 import { SearchBarService } from 'src/app/services/searchbar.service';
 
 @Component({
@@ -8,6 +9,8 @@ import { SearchBarService } from 'src/app/services/searchbar.service';
 })
 export class HomeComponent {
 
+  //public browserAll = []
+
   public songCards = [
 
     { song_id: 1,
@@ -15,8 +18,8 @@ export class HomeComponent {
       thumbnail: 'jioejoeijijisodj',
 
       title: 'Romantic Songs',
-      description: 'Relax and indulge with beautiful piano pieces'
-
+      description: 'Relax and indulge with beautiful piano pieces',
+      //song_link: "assets/mp3",
 
     },
 
@@ -52,3 +55,6 @@ export class HomeComponent {
   }
 
 }
+
+
+

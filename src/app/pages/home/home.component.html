@@ -37,11 +37,13 @@ alt="Spotify light logo"
 <h4 [style.color]="'white'" [style.padding]="'10px'">Focus</h4>
 <div class="playlist_card_collections">
 <div id="song_card_item" *ngFor="let sc of songCards">
+
 <app-song-card 
 
 [playlistThumbnail]="sc.thumbnail"
 [title]="sc.title"
 [description]="sc.description"
+[song_id]="sc.song_id"
 
 ></app-song-card>
 </div>
