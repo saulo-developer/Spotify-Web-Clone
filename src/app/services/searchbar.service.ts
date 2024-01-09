@@ -1,22 +1,10 @@
-import { Injectable } from '@angular/core'
-import { BehaviorSubject } from 'rxjs'
-
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
-
-providedIn: 'root',
-
-
+  providedIn: 'root',
 })
-
-
 export class SearchBarService {
-
-    public isSearchVisible: BehaviorSubject<boolean> = 
+  public isSearchVisible: BehaviorSubject<boolean> =
     new BehaviorSubject<boolean>(false);
-
-
-
-
-
 }

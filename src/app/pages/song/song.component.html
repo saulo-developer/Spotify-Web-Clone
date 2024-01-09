@@ -1,8 +1,8 @@
-<div class="mp3_player-container">
-    <img src="assets/spotify_light.png" width="200" />
+<div class="mp3_player-container container-fluid">
     <div class="mp3-player-card">
       <audio controls [style.background]="'#1F1F1F'">
-        <!--<source [src]="songData?.link" type="audio/mpeg" /> -->
+        <source [src]="songData?.link" type="audio/mpeg" /> 
       </audio>
+      <img [src]="songData?.thumbnail" />
     </div>
   </div>
