@@ -8,6 +8,9 @@ import { SearchBarService } from 'src/app/services/searchbar.service';
   styleUrls: ['./top-nav.component.css']
 })
 export class TopNavComponent implements OnInit {
+filterBrowsingList(_t13: HTMLInputElement) {
+throw new Error('Method not implemented.');
+}
 onNavigationToLogin() {
 throw new Error('Method not implemented.');
 }

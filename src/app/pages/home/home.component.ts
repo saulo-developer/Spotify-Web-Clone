@@ -10,7 +10,7 @@ export class HomeComponent {
 
   public songCards = [
 
-    {
+    { song_id: 1,
 
       thumbnail: 'jioejoeijijisodj',
 
