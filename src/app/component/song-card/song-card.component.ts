@@ -14,6 +14,8 @@ export class SongCardComponent implements OnInit {
   @Input() public description!: string;
   @Input() public link!: string;
   @Input() public song_id!: string | number;
+  
+  
   constructor(private router: Router, private sd: SongDataService) {}
 
   ngOnInit(): void {}
