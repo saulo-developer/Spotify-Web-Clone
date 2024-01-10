@@ -1,5 +1,5 @@
-- Hey! My name's Saulo. 
+Hey! My name is Saul. I'm developing a project for a Spotify application from a clone, using Angular JS, TypescruBootstrap, Node JS.
 
-- I'm developing a Spotify app clone project using Angular JS, Typescript, Node JS.
-  
-- this project is a copy/clone (containing own changes)
+I'm new to programming and I'm developing a Spotify clone with my own changes so I can practice the practical part of what I've been studying for some time.
+
+This project owes all the credit to Sankat29 (original owner).
