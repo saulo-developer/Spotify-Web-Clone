@@ -28,6 +28,7 @@ import { BrowseCardComponent } from './components/browse-car/browse-card.compone
     ButtonComponent,
     SongComponent,
     BrowseCardComponent
+    
   ],
   imports: [
     BrowserModule,
